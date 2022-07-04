@@ -1,0 +1,20 @@
+[
+  {
+    "destKey": "evtName",
+    "sourceKeys": "event",
+    "required": true
+  },
+  {
+    "destKey": "evtData",
+    "sourceKeys": "properties",
+    "required": true,
+    "metadata": {
+      "defaultValue": {}
+    }
+  },
+  {
+    "destKey": "ts",
+    "sourceKeys": "properties.ts",
+    "required": false
+  }
+]
