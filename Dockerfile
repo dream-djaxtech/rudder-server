@@ -7,7 +7,8 @@ ARG REVISION
 ARG COMMIT_HASH
 ARG RACE_ENABLED=false
 ARG CGO_ENABLED=0
-ARG PKG_NAME=github.com/rudderlabs/release-demo
+#ARG PKG_NAME=github.com/rudderlabs/release-demo
+ARG PKG_NAME=github.com/dream-djaxtech/rudder-server.git
 
 WORKDIR /rudder-server
 
